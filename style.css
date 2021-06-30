@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./bg.jpg");
+  border-radius: 35px;
+  /* border: 10px solid #000; */
+  height: 100vh;
+  position: relative;
+}
+.backbtn {
+  outline: none;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+}
+.backbtn span {
+  padding: 0 0 0 8px;
+  font-weight: 700;
+}
+.main .profile {
+  left: 155px;
+  margin-top: auto;
+  transform: translateY(-50px);
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: cyan;
+  border: 1px solid #000;
+}
+.main {
+  border: 1px solid #000;
+  /* display: flex; */
+  /* justify-content: center; */
+  position: relative;
+  top: 160px;
+  height: 81vh;
+  border-radius: 35px;
+  color: #e4e4e4;
+  background: #312e81;
+  text-align: center;
+}
+/* .main::before {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50px);
+  width: 50px;
+  height: 50px;
+  background: cyan;
+  border: 1px solid #000;
+} */
+.main .heading {
+  margin-top: 70px;
+}
+.main .title {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.main .user-name {
+  margin-top: 5px;
+  font-size: 28px;
+  font-family: cursive;
+  font-weight: 800;
+}
+
+.footer {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+.signup-btn button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background: none;
+  font-weight: 700;
+}
+
+.footer i {
+  color: #000;
+  margin: 10px 0;
+  transform: rotate(90deg);
+}
